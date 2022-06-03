@@ -17,7 +17,7 @@ contract Inheritance {
     }
     
     modifier isDeceased {
-      require (deceased == true);
+      require (deceased == false); //true
       _;
     }
 
