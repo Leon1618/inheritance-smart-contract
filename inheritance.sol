@@ -37,7 +37,7 @@ contract Inheritance {
     }
 
     function died() public oneOwner {
-      deceased = false;
+      deceased = true;
       moneyPaid();   
     }
 }   
